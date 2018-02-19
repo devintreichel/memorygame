@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Crayon";
+  src: url(font/crayon.ttf);
+}
+
+h1 {
+  font-family: "Crayon";
+  font-size: 35px;
+  color: red;
+  text-align: center;
+}
+
+#board {
+  background: url(../images/board-background.png);
+  background-size: cover;
+  border: 1px solid #999;
+  width: 1000px;
+  height: 530px;
+  padding: 150px 12px 12px 12px;
+  margin: 0px auto;
+}
+
+#margin {
+  margin-top: 50px;
+}
+
+#board > div {
+  background: url(../images/card-background.png) no-repeat;
+  border: 1px solid #000;
+  width: 62px;
+  height: 110px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: none;
+  transform-style: preserve-3d;
+  transition: all .55s ease;
+}
